@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="https://kit.fontawesome.com/db02497944.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+      <Header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#"><img src="./assets/img/viajes.svg" width="40px"> <span class="name-icon">Viajes Chile</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mx-5 " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Recetas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contacto</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+         
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </Header>
+        
+    
+    <section class="quienessomos">
+<h2>Quienes Somos</h2>
+  <br></br>  
+  
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="my-column">
+          
+          <div class="icon-background">
+            <i class="fas fa-book icon"></i> 
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lectus vitae turpis posuere sodales. Ut non est ac leo interdum semper eget eu dui.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="my-column">
+         <p>Integer nec tortor in ex placerat efficitur. Fusce rutrum libero in posuere fringilla. Curabitur sit amet ligula in dolor ullamcorper malesuada.</p>
+         <div class="icon-background">
+            <i class="fas fa-cogs icon"></i> 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="my-column">
+        
+          <div class="icon-background">
+            <i class="fas fa-chart-line icon"></i> 
+          </div>
+          <p>Vestibulum sit amet ligula et quam rutrum fringilla. Proin ullamcorper finibus eros, nec ultrices enim vulputate sit amet. Sed hendrerit magna nisi, eu aliquet orci faucibus et.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+    </section>
+    <section class="Destacados">
+        <h2>Destacados</h2>
+        <br></br>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card mb-3 custom-card">
+                  <img src="./assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Card 1</h5>
+                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card mb-3 custom-card">
+                  <img src="./assets/img/card2.jpg" class="card-img-top img-fluid" alt="..." width="30px">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Card 2</h5>
+                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card mb-3 custom-card">
+                  <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Card 3</h5>
+                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card mb-3 custom-card">
+                  <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Card 4</h5>
+                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br></br>
+    </section>
+    <section class="Contacto">
+        <h2>Contacto</h2>
+        <br></br>
+        <div class="formula">
+
+            <div class="container mt-5">
+                <div class="row justify-content-center" >
+                  <div class="col-md-6">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
+                    <form>
+                      <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                      </div>
+                      <div class="form-group">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+                      </div>
+                      <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+                      </div>
+                      <br></br>
+                    </form>
+                    <button class="boton" onclick="myFunction()">Enviar</button>
+                    
+                  </div>
+                </div>
+              </div>
+              <br></br>
+              <br></br>  
+          </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="p-3 text-white">
+              <div class="container">
+                <p class="titulo-footer" data-toggle="tooltip" title="Este es el pie de página de Viajes Chile">VIAJES CHILE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class=" p-3 text-white">
+              <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+              <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
