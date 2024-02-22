@@ -1,0 +1,121 @@
+
+
+nav {
+    background-color: transparent;
+    
+}
+
+
+.name-icon
+{
+    font-size: 70%;
+   
+}
+
+.navbar-brand
+{
+    color: white !important;
+  
+    font-weight: bold;
+    margin-left: 10% !important;
+    font-size: 180% !important;
+}
+
+.navbar-nav
+{
+    margin-left: 70% !important;
+    margin-right: 50% !important;
+    font-family: roboto !important;
+}
+
+#navbarNav
+
+{
+    margin-right: 13% !important;
+}
+
+.quienessomos
+{
+    background-color: black;
+    color: white !important;
+}
+
+h2
+{
+    text-align: center;
+    color: white !important;
+    padding-top: 3% !important;
+    padding-bottom: 1% !important;
+    border-bottom: solid 1px;
+}
+
+.icon-background {
+    background-color: mediumturquoise;
+    align-items: center !important;
+    text-align: center;
+ }
+  
+.icon {
+    color: white; 
+    font-size: 24px;
+    text-align: center;
+  }
+
+.custom-card {
+    background-color: mediumturquoise !important;
+    color: white;
+  }
+
+.Destacados
+{
+    background-color: black;
+}
+
+.Contacto
+{
+    background-color: black;
+    color: white;
+}
+
+footer
+{
+    background-color: mediumturquoise;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+
+.fa-brands
+{
+    font-size: 30px;
+}
+
+body
+{
+    font-family: roboto;
+}
+
+.boton {
+    background-color: turquoise;
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition-duration: 0.4s; 
+  }
+
+  .boton:hover {
+    background-color: #140b8d; /* Cambia el color de fondo al pasar el mouse */
+  }
+
+  .titulo-footer
+  {
+    font-size: 125%;
+  }
