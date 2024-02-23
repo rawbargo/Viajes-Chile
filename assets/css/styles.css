@@ -40,6 +40,14 @@ nav {
     color: white;
 }
 
+  /* Estilo para ocultar la sección en dispositivos móviles */
+  @media (max-width: 767px) {
+    .quienessomos {
+      display: none;
+    }
+  }
+
+  
 h2
 {
     text-align: center;
