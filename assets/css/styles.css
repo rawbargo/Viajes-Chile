@@ -37,13 +37,13 @@ nav {
 .quienessomos
 {
     background-color: black;
-    color: white !important;
+    color: white;
 }
 
 h2
 {
     text-align: center;
-    color: white !important;
+    color: white;
     padding-top: 3% !important;
     padding-bottom: 1% !important;
     border-bottom: solid 1px;
@@ -118,4 +118,9 @@ body
   .titulo-footer
   {
     font-size: 125%;
+  }
+
+  .Destacados
+  {
+    color: white !important;
   }
