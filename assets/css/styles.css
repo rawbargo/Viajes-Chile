@@ -1,6 +1,7 @@
 
 
-nav {
+nav /* Secciones de propiedades del Nav */
+{
     background-color: transparent;
     
 }
@@ -34,7 +35,7 @@ nav {
     margin-right: 13% !important;
 }
 
-.quienessomos
+.quienessomos /* Propiedad de la seccion Quienes Somos */
 {
     background-color: black;
     color: white;
@@ -48,7 +49,7 @@ nav {
   }
 
 
-h2
+h2 /* Propiedades para los titulos que no tengan propiedades especiales */ 
 {
     text-align: center;
     color: white;
@@ -57,35 +58,38 @@ h2
     border-bottom: solid 1px;
 }
 
-.icon-background {
+.icon-background /* Propiedades Icono en tarjeta */ 
+{
     background-color: mediumturquoise;
     align-items: center !important;
     text-align: center;
  }
   
-.icon {
+.icon  /* Propiedades Icono en tarjeta */ 
+{
     color: white; 
     font-size: 24px;
     text-align: center;
   }
 
-.custom-card {
+.custom-card /* Propiedades Tarjeta */ 
+{
     background-color: mediumturquoise !important;
     color: white;
   }
 
-.Destacados
+.Destacados  /* Solo fondo destacado */
 {
     background-color: black;
 }
 
-.Contacto
+.Contacto /* Propiedades Contacto */
 {
     background-color: black;
     color: white;
 }
 
-footer
+footer /* Propiedades footer */
 {
     background-color: mediumturquoise;
     padding: 1%;
@@ -94,17 +98,18 @@ footer
 }
 
 
-.fa-brands
+.fa-brands /* Tamaño de los Iconos */
 {
     font-size: 30px;
 }
 
-body
+body /* Fuente roboto para todo el cuerpo */
 {
     font-family: roboto;
 }
 
-.boton {
+.boton  /* Boton con Funcion Alert */
+{
     background-color: turquoise;
     border: none;
     color: white; 
@@ -119,7 +124,8 @@ body
     transition-duration: 0.4s; 
   }
 
-  .superboton {
+  .superboton   /* Boton que da la hora */
+  {
     background-color: black;
     border: none;
     color: white; 
@@ -139,21 +145,22 @@ body
     background-color: #140b8d; /* Cambia el color de fondo al pasar el mouse */
   }
 
-  .titulo-footer
+  .titulo-footer  /* Viajes Chile, pero con más letras */
   {
     font-size: 125%;
   }
 
-  .Destacados
+  .Destacados    /* Titulo Destacados */
   {
     color: white !important;
   }
 
-.card-img-top{
+.card-img-top   /* tamaño de imagenes en las Card */
+{
    height: 200px;
 }
 
-.card-img-top1
+.card-img-top1   /* Tamaño Imagenes en la Card 2, al tener una proporcion más grande que las otras. */
 {
     height: 200px;
 }

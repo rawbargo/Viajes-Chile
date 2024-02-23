@@ -27,3 +27,4 @@ function myFunction() {
     return color;
   }
   
+  /* Fecha y hora estan en el HTML, en la sseción footer. */
