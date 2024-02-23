@@ -1,7 +1,9 @@
+ /* Alert Con boton */
 function myFunction() {
     alert("El correo ha sido enviadors");
   }
  
+   /* Cambio Color */
   function cambiarColor(idElemento) {
     var elemento = document.getElementById(idElemento);
     var colorActual = elemento.style.color;
